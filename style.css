@@ -74,3 +74,16 @@
     transform: translateY(-50%) rotateX(80deg);
 
 }
+
+/* hover */
+
+.btn-flip:hover::after {
+    opacity: 1;
+  transform: translateY(0) rotateX(0);
+
+}
+
+.btn-flip:hover::before{
+    opacity: 0;
+    transform: translateY(0) rotateX(80deg);
+}
