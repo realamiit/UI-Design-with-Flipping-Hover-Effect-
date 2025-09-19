@@ -54,5 +54,23 @@
     display: inline-block;
     margin: 10px auto;
     cursor: pointer;
-    
+
+}
+
+/* button back */
+
+.btn-flip::after{
+    content: attr(data-back);
+    color: white;
+    background:var(--color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+    /* temp */
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(-50%) rotateX(80deg);
+
 }
