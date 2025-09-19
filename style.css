@@ -45,4 +45,14 @@
 
 }
 
-
+.btn-flip{
+    line-height: 40px;
+    position: relative;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: "open Sans";
+    display: inline-block;
+    margin: 10px auto;
+    cursor: pointer;
+    
+}
