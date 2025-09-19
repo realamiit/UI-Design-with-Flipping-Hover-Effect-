@@ -23,6 +23,26 @@
     padding: 5px;
     margin-left: 16px;
     border-radius: 5px 0 0 5px;
-    
+    margin-bottom: -15px;
+    margin-right: -5px;
 
 }
+
+/* button-front */
+
+.btn-flip::before{
+    content: attr(data-front);
+  color: white;
+  background: var(--color);
+  padding: 0 20px;
+  display: block;
+  line-height: 40px;
+  position: relative;
+  border-radius: 0 5px 5px 0;
+  transition: 0.5s;
+  /* tmp */
+  opacity: 1;
+
+}
+
+
